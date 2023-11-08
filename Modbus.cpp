@@ -1,8 +1,8 @@
 /*
     Modbus.cpp - Source for Modbus Base Library
-    Copyright (C) 2014 André Sarmento Barbosa
+    Copyright (C) 2014 AndrÃ© Sarmento Barbosa
 */
-#include "Modbus.h"
+ include "Modbus.h"
 
 Modbus::Modbus() {
     _regs_head = 0;
@@ -74,7 +74,7 @@ word Modbus::Hreg(word offset) {
     return Reg(offset + 40001);
 }
 
-#ifndef USE_HOLDING_REGISTERS_ONLY
+ ifndef USE_HOLDING_REGISTERS_ONLY
     void Modbus::addCoil(word offset, bool value) {
         this->addReg(offset + 1, value?0xFF00:0x0000);
     }
@@ -512,3 +512,4 @@ void Modbus::writeMultipleCoils(byte* frame,word startreg, word numoutputs, byte
 
 
 
+ 
