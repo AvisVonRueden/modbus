@@ -1,4 +1,4 @@
-# Syntax Coloring Map For Modbus
+  Syntax Coloring Map For Modbus
 
 # Datatypes (KEYWORD1)
 Modbus	    KEYWORD1
@@ -39,3 +39,4 @@ MB_FC_WRITE_REGS           LITERAL1
 MB_REPLY_OFF               LITERAL1
 MB_REPLY_ECHO              LITERAL1
 MB_REPLY_NORMAL            LITERAL1
+ 
